@@ -72,6 +72,7 @@ RUN pip3 install --no-index --find-links=/local/wheels -r requirements.txt
 # Add a notebook profile.
 RUN mkdir -p -m 700 /root/.jupyter/
 ADD config/jupyter_notebook_config.py /root/.jupyter/jupyter_notebook_config.py
+ADD config/custom.css /root/.jupyter/custom/custom.css
 
 VOLUME /notebooks
 WORKDIR /notebooks
