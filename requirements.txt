@@ -32,6 +32,7 @@ pytz==2016.4
 pyzmq==15.2.0
 qtconsole==4.2.1
 requests==2.10.0
+seaborn==0.7.1
 simplegeneric==0.8.1
 six==1.10.0
 suds-jurko==0.6
